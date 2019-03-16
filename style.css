@@ -1,0 +1,87 @@
+/* 1. Your HTML should have each of the following sections:
+   * Header
+   * Nav
+   * Aside (With a Heading)
+   * Section (With a Heading)
+   * Article (With a Heading) contained within the Section
+   * Headers contained within the Article
+   * Paragraph contained within the Article */
+/* 2. Your CSS should have styles for each of the following elements: */
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #777;
+     background: #777;
+     width: 960px;
+     font-size: 18px;
+     margin: auto;
+    }
+
+header {
+     padding: 30px;
+     margin-top: 5px;
+     margin-bottom: 10px;
+     background: #ebebeb;
+     width: 100%;
+    } 
+
+nav {
+     padding: 30px;
+     margin-bottom: 20px;
+     background: #ebebeb;
+     width: 100%;
+    }  
+
+section {
+     padding: 30px 10px 30px 10px;
+     width: 495px;
+     height: 280px;
+     background: #ebebeb;
+     float: left;
+    }
+
+article { 
+     color: #ebebeb;
+     background: #777;
+     margin-top: 20px;
+     padding: 20px;
+     height: 200px;
+    }
+   
+p { 
+     color: #777;
+     background: #ebebeb;
+     padding: 15px;
+     margin-top: 10px;
+    }
+
+h1{ 
+    color: #777;
+    background: #ebebeb;
+    padding: 15px;
+    margin-bottom: 10px;
+    }
+   
+
+aside { 
+     background: #ebebeb;
+     padding: 30px;
+     float: left;
+     width: 445px;
+     margin-left: 20px;
+     height: 280px;
+     margin-bottom: 20px;
+    }   
+
+footer {
+     background: #ebebeb;
+     padding: 30px;
+     clear: both;
+     content: "";
+     margin-top: 20px;
+   }
+
